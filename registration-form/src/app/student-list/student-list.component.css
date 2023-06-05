@@ -1,0 +1,33 @@
+/* Styles for the student list table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Add border */
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Add border to table cells */
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .table td {
+    background-color: #f2f2f2;
+  }
+  
+  /* Additional styles for the page */
+  p {
+    font-size: 18px;
+  }
+  
+  h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  

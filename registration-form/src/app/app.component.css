@@ -1,0 +1,45 @@
+/* Styles for the header */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  nav {
+    background-color: #4CAF50;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #45a049;
+  }
+  
+  nav ul li a.active {
+    background-color: #45a049;
+  }
+  
+  /* Additional styles for the page */
+  .router-container {
+    margin-top: 30px;
+  }
+  
+  /* Add your custom styles for the router outlet content here */
+  
